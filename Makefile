@@ -21,7 +21,7 @@ tests:
 	goppy test
 
 .PHONY: pre-commit
-pre-commit: install lint tests build
+pre-commit: install license lint tests build
 
 .PHONY: ci
 ci: pre-commit
